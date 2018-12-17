@@ -2,7 +2,7 @@
 
 .Titel{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -10,8 +10,8 @@
 /* kasten*/
 
 .dropbtn {
-    background-color: rgba(0, 0, 0, 0.253);
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -62,7 +62,26 @@
     background-color: #0000009c;
   }
 
+
+  /*hintergrundbild*/  
+
+  body{ 
+    background: url(bilder/body_hintergrundbild.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 50px;
+  }
+
   /*Text main*/
   h1{
-      color: darkblue;
+      text-decoration-line: underline;
   }
+
+  h2{
+    text-decoration-line: underline;
+  }
+
+
+  /*Text border*/
+
+  
