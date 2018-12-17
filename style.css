@@ -1,3 +1,12 @@
+/* erste 2 kasten*/
+
+.Titel{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 /* kasten*/
 
 .dropbtn {
@@ -7,6 +16,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+
   }
   
 /* kasten ausrichtung*/
@@ -14,6 +24,7 @@
   .dropdown {
     position: relative;
     display: inline-block;
+    
   }
   
 /* kisten dropdown*/
@@ -25,6 +36,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
 
   }
 
@@ -48,4 +60,9 @@
   
   .dropdown:hover .dropbtn {
     background-color: #0000009c;
+  }
+
+  /*Text main*/
+  h1{
+      color: darkblue;
   }
