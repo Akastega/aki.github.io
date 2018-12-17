@@ -66,6 +66,13 @@
   /*hintergrundbild*/  
 
   body{ 
-background: rgba(196, 185, 185, 0.692);
+background: url(bilder/body_hintergrundbild.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
 margin: 100px;
+font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p{
+    font-size: 20px;
   }
