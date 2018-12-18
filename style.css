@@ -70,11 +70,16 @@
   /*hintergrundbild*/  
 
   body{ 
-background: url(bilder/;
+background: rgb(210, 216, 219);
 font-family: Arial, Helvetica, sans-serif;
   }
 
 a {
   text-decoration: none;
   color:black;
+}
+
+header{
+  background: #f9f9f9;
+
 }
