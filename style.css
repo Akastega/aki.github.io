@@ -68,6 +68,7 @@ main{
   margin: 90px 60px 10px 60px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.486);
+  line-height: 25px;
   }
 
 a {
@@ -98,6 +99,12 @@ footer{
 
 
 /*main inhalt*/
+#uk101 {
+  text-align: center;
+  text-decoration: underline;
+  line-height: 2.5em;
+}
+
 h1, h2, p {
   margin:10px;
   color: white;
