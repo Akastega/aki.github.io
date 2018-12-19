@@ -67,14 +67,20 @@
                 background-color: #0000006b;
   }
 
-  /*hintergrundbild*/  
+  /*hintergrund*/  
 
   body{ 
-  background:url(bilder/hintergrund.jpg);
+  background-color: rgb(102, 101, 101);
   font-family: Arial, Helvetica, sans-serif;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  color: white;
+  }
 
+
+  main{
+      margin: 30px 40px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.486);
   }
 
 a {
@@ -84,12 +90,13 @@ a {
 
 header{
   background: white;
-
+  text-align: center;
 }
 
 
 footer{
   background: white;
   padding: 20px;
-
+  color: black;
+  text-align: center;
 }
