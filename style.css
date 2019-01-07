@@ -105,7 +105,7 @@ footer{
   line-height: 2.5em;
 }
 
-h1, h2, p {
+h1, h2, p, h3{
   margin:10px;
   color: white;
 }
