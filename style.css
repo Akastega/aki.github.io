@@ -65,7 +65,7 @@ body{
   }
 
 main{
-
+  margin: 90px 60px 10px 60px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.486);
   line-height: 25px;
@@ -78,6 +78,7 @@ a {
 
 header{
   background: white;
+  position: fixed;
   text-align: center;
   top: 0px;
   left: 0px;
@@ -109,5 +110,15 @@ h1, h2, p, h3{
   color: white;
 }
 
-/*bilder*/
+/*link*/
+a
+{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
 
+img{
+  display: block;
+  margin: 10px auto;
+}
