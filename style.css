@@ -65,7 +65,7 @@ body{
   }
 
 main{
-  margin: 90px 60px 10px 60px;
+
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.486);
   line-height: 25px;
@@ -79,7 +79,6 @@ a {
 header{
   background: white;
   text-align: center;
-  position: fixed;
   top: 0px;
   left: 0px;
   margin: 0px;
@@ -108,4 +107,11 @@ footer{
 h1, h2, p, h3{
   margin:10px;
   color: white;
+}
+
+/*bilder*/
+
+#Bilder {
+  width: 300px;
+  height: 400px;
 }
