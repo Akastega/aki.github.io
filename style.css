@@ -2,6 +2,7 @@
 .Titel{
   text-decoration: none;
   color: rgb(0, 0, 0);
+
 }
 
 /* kasten*/
@@ -71,14 +72,10 @@ main{
   line-height: 25px;
   }
 
-a {
-  text-decoration: none;
-  color:black;
-}
+
 
 header{
   background: white;
-  position: fixed;
   text-align: center;
   top: 0px;
   left: 0px;
@@ -115,12 +112,32 @@ a
 {
   background-color: white;
   color: rgb(0, 0, 0);
-  padding: 5px;
+  padding: 5px;  
+  text-decoration: none;
+  color:black;
 }
 
 img{
   display: block;
   margin: 10px auto;
-  width: 700px;
-  height: 500px;
+  width: 400px;
+  height: 300px;
 }
+
+/*pfeil nach oben*/
+#nachoben {
+  position: fixed;
+  background-color: #0000004f;
+  padding: 15px;
+}
+
+#testp {
+  width: 600px;
+  height: 200px;
+}
+
+#vsc {
+  width: 250px;
+  height: 270px;
+}
+
